@@ -8,9 +8,10 @@ A Python library to access local macOS calendars via EventKit and PyObjC. Works 
 何らかの事情により python 3.12 が使いたい場合の対応を行っています。
 説明するまでもないかと思いますが，リポジトリを clone，当該ディレクトリ内で以下のように実行すればローカルにインストールできます。
 
+```
 % python -m build
 % pip install --no-index --find-links=dist maccal
-
+```
 
 ## Overview
 
